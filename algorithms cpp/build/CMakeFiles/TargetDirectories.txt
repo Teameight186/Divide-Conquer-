@@ -1,9 +1,0 @@
-D:/projects/vs/Divide-Conquer-/algorithms cpp/build/CMakeFiles/Experimental.dir
-D:/projects/vs/Divide-Conquer-/algorithms cpp/build/CMakeFiles/Nightly.dir
-D:/projects/vs/Divide-Conquer-/algorithms cpp/build/CMakeFiles/Continuous.dir
-D:/projects/vs/Divide-Conquer-/algorithms cpp/build/CMakeFiles/NightlyMemoryCheck.dir
-D:/projects/vs/Divide-Conquer-/algorithms cpp/build/CMakeFiles/Sorts.dir
-D:/projects/vs/Divide-Conquer-/algorithms cpp/build/CMakeFiles/PACKAGE.dir
-D:/projects/vs/Divide-Conquer-/algorithms cpp/build/CMakeFiles/RUN_TESTS.dir
-D:/projects/vs/Divide-Conquer-/algorithms cpp/build/CMakeFiles/ALL_BUILD.dir
-D:/projects/vs/Divide-Conquer-/algorithms cpp/build/CMakeFiles/ZERO_CHECK.dir
