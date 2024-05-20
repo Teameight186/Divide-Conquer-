@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <iterator>
-#include "sorts.hpp"
+#include "Sorts.hpp"
 
 int main() {
 
