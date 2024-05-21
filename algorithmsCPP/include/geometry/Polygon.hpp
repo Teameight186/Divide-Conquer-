@@ -5,6 +5,7 @@
 class Polygon{
 public:
     Polygon() = default;
+    Polygon(Polygon &p);
     Polygon(const Polygon& p) = delete;
     Polygon(Vertex*);
     ~Polygon();
@@ -17,7 +18,7 @@ public:
     Vertex* neighbour(int rotation);
     Vertex* advance(int rotation);
     Vertex* setV(Vertex*);
-    Vertex* insert(Point&);
+    Vertex* insert(const Point&);
     void remove();
     Polygon* split(Vertex*);
 private:

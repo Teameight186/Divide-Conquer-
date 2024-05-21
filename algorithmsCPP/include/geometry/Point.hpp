@@ -19,7 +19,7 @@ public:
     int operator<(const Point&);
     int operator>(const Point&);
     int classify(Point&, Point&);
-    int classify(Edge&);
+    int classify(const Edge&);
     double polarAngle();
     double length();
     Point& normalize();

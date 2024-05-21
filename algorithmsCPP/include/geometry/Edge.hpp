@@ -20,7 +20,7 @@ public:
     Edge& rot();
     Edge& flip();
     Point point(double);
-    int intersect(Edge &, double &);
+    int intersect(const Edge &, double &);
     int cross(Edge &, double &);
     bool isVertical();
     double slope();

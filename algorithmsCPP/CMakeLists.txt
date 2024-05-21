@@ -11,6 +11,7 @@ set(SOURCES
     source/geometry/Node.cpp
     source/geometry/Vertex.cpp
     source/geometry/Polygon.cpp
+    source/algorithms/halfplaneIntersect.cpp
 )
 set(HEADERS 
     ./include/algorithms/sorts.hpp
@@ -19,6 +20,7 @@ set(HEADERS
     ./include/geometry/Polygon.hpp
     ./include/geometry/Node.hpp
     ./include/geometry/Vertex.hpp
+    ./include/algorithms/halfplaneIntersect.hpp
 )
 
 add_executable(${PROJECT_NAME}

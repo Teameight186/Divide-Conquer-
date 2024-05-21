@@ -6,6 +6,22 @@ Polygon::Polygon(Vertex * v) : m_v{v}
     resize();
 }
 
+Polygon::Polygon(Polygon &p)
+{
+    m_size = p.m_size;
+    if (m_size == 0)
+        m_v = nullptr;
+    else {
+        m_v = new Vertex(p.point());
+        for (int i = 1; i < m_size; i++) {
+            p.advance(Vertex::CLOCKWISE);
+            m_v = m_v->insert(new Vertex(p.point()));
+        }
+        p.advance(Vertex::CLOCKWISE);
+        m_v = m_v->cw();
+    }
+}
+
 Polygon::~Polygon()
 {
 }
@@ -55,7 +71,7 @@ Vertex* Polygon::setV(Vertex* ver)
     return m_v = ver;
 }
 
-Vertex* Polygon::insert(Point& p)
+Vertex* Polygon::insert(const Point& p)
 {
     if(m_size++ == 0)
         m_v = new Vertex(p);

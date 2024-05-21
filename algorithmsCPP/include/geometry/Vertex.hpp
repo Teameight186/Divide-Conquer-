@@ -6,6 +6,8 @@
 class Polygon;
 
 class Vertex: public Node, public Point{
+public:
+
     enum{
         CLOCKWISE,
         COUNTER_CLOCKWISE

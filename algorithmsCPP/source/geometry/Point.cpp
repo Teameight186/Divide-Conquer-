@@ -79,9 +79,10 @@ int Point::classify(Point &p0, Point &pl)
     return BETWEEN;
 }
 
-int Point::classify(Edge &e)
+int Point::classify(const Edge &e)
 {
-    return classify(e.org, e.dest);
+    Edge newe = e;
+     return classify(newe.org, newe.dest);
 }
 
 double Point::polarAngle()

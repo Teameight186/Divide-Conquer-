@@ -35,7 +35,7 @@ Point Edge::point(double t)
     return Point(org + t*(dest-org));
 }
 
-int Edge::intersect(Edge& e, double& t)
+int Edge::intersect(const Edge& e, double& t)
 {
     Point a = org;
     Point b = dest;
