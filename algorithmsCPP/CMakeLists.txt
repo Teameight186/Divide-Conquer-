@@ -12,15 +12,26 @@ set(SOURCES
     source/geometry/Vertex.cpp
     source/geometry/Polygon.cpp
     source/algorithms/halfplaneIntersect.cpp
+    source/algorithms/kernel.cpp
+    source/algorithms/mergeHull.cpp
+    source/algorithms/triangulate.cpp
+    source/algorithms/voronoiDiagram.cpp
+    source/algorithms/closestPoints.cpp
 )
 set(HEADERS 
-    ./include/algorithms/sorts.hpp
+    ./include/algorithms/Sorts.hpp
     ./include/geometry/Edge.hpp
     ./include/geometry/Point.hpp
     ./include/geometry/Polygon.hpp
     ./include/geometry/Node.hpp
     ./include/geometry/Vertex.hpp
     ./include/algorithms/halfplaneIntersect.hpp
+    ./include/geometry/List.hpp
+    ./include/algorithms/kernel.hpp
+    ./include/algorithms/mergeHull.hpp
+    ./include/algorithms/triangulate.hpp
+    ./include/algorithms/voronoiDiagram.hpp
+    ./include/algorithms/closestPoints.hpp
 )
 
 add_executable(${PROJECT_NAME}
